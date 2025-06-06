@@ -1,0 +1,46 @@
+{
+  "1332722010089984012": {
+    "logs": {
+      "bot": {
+        "enabled": true,
+        "channelId": "1374796745812217886"
+      },
+      "sanction": {
+        "enabled": true,
+        "channelId": "1374796745812217886"
+      },
+      "server": {
+        "enabled": true,
+        "channelId": "1375071112089571349"
+      }
+    },
+    "music": {
+      "musicChannelId": "1378014386219913236",
+      "messageId": "1380314471624474646"
+    },
+    "ticket": {
+      "ticketChannelId": "1380375470272413806",
+      "count": 3
+    }
+  },
+  "1374561104688058438": {
+    "logs": {
+      "bot": {
+        "enabled": true,
+        "channelId": "1375960869376098445"
+      },
+      "sanction": {
+        "enabled": false,
+        "channelId": null
+      },
+      "server": {
+        "enabled": true,
+        "channelId": "1375966212525264986"
+      }
+    },
+    "music": {
+      "musicChannelId": "1377781921987428412",
+      "messageId": "1378088210173005935"
+    }
+  }
+}

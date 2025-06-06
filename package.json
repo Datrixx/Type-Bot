@@ -1,0 +1,44 @@
+{
+  "name": "type-bot",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --loader ts-node/esm/transpile-only src/main.ts",
+    "start": "tsx --trace-warnings src/main.ts",
+    "watch": "nodemon --exec npm run dev --watch src --ext ts"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^7.1.0",
+    "@discordjs/voice": "^0.18.0",
+    "@discordx/importer": "^1.3.1",
+    "discord-player": "^7.1.0",
+    "discord-player-youtubei": "^1.4.6",
+    "discord.js": "^14.19.3",
+    "discordx": "^11.12.2",
+    "dotenv": "^16.4.7",
+    "fast-glob": "^3.3.3",
+    "ffmpeg-static": "^5.2.0",
+    "play-dl": "^1.9.7",
+    "prism-media": "^1.3.5",
+    "reflect-metadata": "^0.2.2",
+    "soundcloud-scraper": "^5.0.3",
+    "spotify-url-info": "^3.2.18",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
+}
